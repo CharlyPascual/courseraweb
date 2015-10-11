@@ -26,7 +26,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 529212,
+		"initialSize": 163673,
 		"inputAbbreviatedPath": "\/img\/img_11.png",
 		"outputAbbreviatedPath": "\/img\/img_11.png",
 		"outputPathIsOutsideProject": 0,
@@ -48,7 +48,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 74703,
+		"initialSize": 229236,
 		"inputAbbreviatedPath": "\/img\/img_21.png",
 		"outputAbbreviatedPath": "\/img\/img_21.png",
 		"outputPathIsOutsideProject": 0,
@@ -70,7 +70,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 849584,
+		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/img_31.png",
 		"outputAbbreviatedPath": "\/img\/img_31.png",
 		"outputPathIsOutsideProject": 0,
@@ -414,7 +414,7 @@
 			"flagValue": -1
 			},
 		"eqeqeq": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"eqnull": {
@@ -642,7 +642,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"varstmt": {

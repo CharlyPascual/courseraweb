@@ -5,14 +5,15 @@ function coursera(){
 	$(".option").click(function(){
 		//depending your option choose
 		var id = $(this).attr("id");
-		counter = parseInt(id.slice(-1)); //last digit
+		counter = parseInt(id.slice(-1)); //last digit is used
 		$("#image").attr('src', 'img/img_'+counter+'1.png');
-		//menu border
-		//$("#option"+counter).addClass("bordering");
+		
+		//menu bordering
+		//http://stackoverflow.com/questions/12687085/jquery-remove-class-if-other-element-is-clicked
 		$(".option").removeClass("bordering");
 		$(this).addClass("bordering");
 
-		//color text
+		//coloured text
 		switch(counter){
 		case 1:
 		colortext = "lightblue";
@@ -27,7 +28,7 @@ function coursera(){
 		colortext = "gray";
 		break;
 		}
-		//load text
+		//load text from external file with "load" function
 		$("div.texter").load("text/test"+counter+".html").addClass("h2").css("color",colortext);		
 	});
 }
