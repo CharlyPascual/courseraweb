@@ -8,7 +8,10 @@ function coursera(){
 		counter = parseInt(id.slice(-1)); //last digit
 		$("#image").attr('src', 'img/img_'+counter+'1.png');
 		//menu border
-		$("#option"+counter).addClass("bordering");
+		//$("#option"+counter).addClass("bordering");
+		$(".option").removeClass("bordering");
+		$(this).addClass("bordering");
+
 		//color text
 		switch(counter){
 		case 1:
@@ -28,5 +31,3 @@ function coursera(){
 		$("div.texter").load("text/test"+counter+".html").addClass("h2").css("color",colortext);		
 	});
 }
-
-
