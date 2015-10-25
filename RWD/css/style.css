@@ -1,3 +1,20 @@
 .photo_task{
-	max-width: 100%
+	width: 100%
+}
+.taskPrincipal{
+	border: 1px solid lightgray;
+	padding-top: 1%;
+	margin: 1%;
+	height: 300px;/* all the box will have the same height*/
+
+
+}
+@media (min-width: 1200px) {
+	.col-lg-4{
+    width: 31.33333333%;
+  }
+}
+@media (min-width: 992px) {  .col-md-4{
+  	    width: 31.33333333%;
+  }
 }
