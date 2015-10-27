@@ -1,20 +1,12 @@
 .photo_task{
-	width: 100%
+	width: 100%;
+	background-color: lightgreen;
+	padding: 2px;
+	border-radius: 10px;  
 }
-.taskPrincipal{
+.section{
+	border-radius: 10px;   
+	padding: 5px;
 	border: 1px solid lightgray;
-	padding-top: 1%;
-	margin: 1%;
-	height: 300px;/* all the box will have the same height*/
-
-
-}
-@media (min-width: 1200px) {
-	.col-lg-4{
-    width: 31.33333333%;
-  }
-}
-@media (min-width: 992px) {  .col-md-4{
-  	    width: 31.33333333%;
-  }
+	height: 310px;
 }
