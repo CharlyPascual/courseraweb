@@ -12,8 +12,10 @@
 }
 .pre_main{
 	 display: block;
+	 font-family: monospace, monospace;
 	 margin: 0 0 10px;
-     font-size: 13px;
+     font-size: 1em;
      line-height: 1.42857143;
 	 color: #333;
+	 border-bottom: 1px solid lightgray;
 }
