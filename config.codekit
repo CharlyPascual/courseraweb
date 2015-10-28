@@ -211,6 +211,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/RWD\/images\/dibujo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12531,
+		"inputAbbreviatedPath": "\/RWD\/images\/dibujo.png",
+		"outputAbbreviatedPath": "\/RWD\/images\/dibujo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/RWD\/images\/task1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
