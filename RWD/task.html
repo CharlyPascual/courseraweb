@@ -16,8 +16,10 @@
   </head>
 <body>
    <!-- start collapsed navbar-->
-   <nav class="navbar navbar-default">
+   <!-- fixed menu on the top -->
+   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
+    <div class="navbar-header">
         <!-- especial three lines button -->
         <button type="button" class="navbar-toggle collapsed btn btn-default" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false">
           <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
@@ -28,7 +30,7 @@
       <div class="collapse navbar-collapse" id="main_navbar">
         <ul class="nav navbar-nav">
           <li><a href="index.html">Home</a></li>
-          <li><a href="task.html">Task</a></li>
+          <li class="active"><a href="task.html">Task</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
       </div><!-- / un-collapsed navbar-->
@@ -41,9 +43,10 @@
   <h4 class="pre_main">Realising design principles in code at Coursera London University</h4>
 
       <!-- start breadcrumb -->
+       <!-- with active background -->
       <ol class="breadcrumb">
         <li><a href="index.html">Home</a></li>
-        <li><a href="task.html">Task</a></li>
+        <li class="active">Task<a href="task.html"></a></li>
       </ol>
       <!-- / breadcrumb -->
 

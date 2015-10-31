@@ -1,3 +1,7 @@
+
+body { 
+	padding-top: 70px; 
+}
 .photo_task{
 	width: 100%;
 	background-color: lightgreen;/*green border around the image*/
@@ -8,7 +12,7 @@
 	border-radius: 10px;   
 	padding: 3%;
 	border: 1px solid lightgray;
-	margin-bottom: 1%;
+	margin-bottom: 1%; /*adding some extra space between sections*/
 	
 }
 .pre_main{
