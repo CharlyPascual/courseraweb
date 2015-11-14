@@ -2,307 +2,467 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19076",
 "files": {
-	"\/BWD\/bootstrap.css": {
+	"\/1BWD\/bootstrap.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/BWD\/bootstrap.css",
+		"inputAbbreviatedPath": "\/1BWD\/bootstrap.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/BWD\/img\/img_1.png": {
+	"\/1BWD\/img\/img_1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4090,
-		"inputAbbreviatedPath": "\/BWD\/img\/img_1.png",
-		"outputAbbreviatedPath": "\/BWD\/img\/img_1.png",
+		"inputAbbreviatedPath": "\/1BWD\/img\/img_1.png",
+		"outputAbbreviatedPath": "\/1BWD\/img\/img_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/BWD\/img\/img_11.png": {
+	"\/1BWD\/img\/img_11.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 163673,
-		"inputAbbreviatedPath": "\/BWD\/img\/img_11.png",
-		"outputAbbreviatedPath": "\/BWD\/img\/img_11.png",
+		"inputAbbreviatedPath": "\/1BWD\/img\/img_11.png",
+		"outputAbbreviatedPath": "\/1BWD\/img\/img_11.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/BWD\/img\/img_2.png": {
+	"\/1BWD\/img\/img_2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3921,
-		"inputAbbreviatedPath": "\/BWD\/img\/img_2.png",
-		"outputAbbreviatedPath": "\/BWD\/img\/img_2.png",
+		"inputAbbreviatedPath": "\/1BWD\/img\/img_2.png",
+		"outputAbbreviatedPath": "\/1BWD\/img\/img_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/BWD\/img\/img_21.png": {
+	"\/1BWD\/img\/img_21.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 229236,
-		"inputAbbreviatedPath": "\/BWD\/img\/img_21.png",
-		"outputAbbreviatedPath": "\/BWD\/img\/img_21.png",
+		"inputAbbreviatedPath": "\/1BWD\/img\/img_21.png",
+		"outputAbbreviatedPath": "\/1BWD\/img\/img_21.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/BWD\/img\/img_3.png": {
+	"\/1BWD\/img\/img_3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3706,
-		"inputAbbreviatedPath": "\/BWD\/img\/img_3.png",
-		"outputAbbreviatedPath": "\/BWD\/img\/img_3.png",
+		"inputAbbreviatedPath": "\/1BWD\/img\/img_3.png",
+		"outputAbbreviatedPath": "\/1BWD\/img\/img_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/BWD\/img\/img_31.png": {
+	"\/1BWD\/img\/img_31.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/BWD\/img\/img_31.png",
-		"outputAbbreviatedPath": "\/BWD\/img\/img_31.png",
+		"inputAbbreviatedPath": "\/1BWD\/img\/img_31.png",
+		"outputAbbreviatedPath": "\/1BWD\/img\/img_31.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/BWD\/img\/img_4.png": {
+	"\/1BWD\/img\/img_4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3882,
-		"inputAbbreviatedPath": "\/BWD\/img\/img_4.png",
-		"outputAbbreviatedPath": "\/BWD\/img\/img_4.png",
+		"inputAbbreviatedPath": "\/1BWD\/img\/img_4.png",
+		"outputAbbreviatedPath": "\/1BWD\/img\/img_4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/BWD\/img\/img_41.png": {
+	"\/1BWD\/img\/img_41.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 173270,
-		"inputAbbreviatedPath": "\/BWD\/img\/img_41.png",
-		"outputAbbreviatedPath": "\/BWD\/img\/img_41.png",
+		"inputAbbreviatedPath": "\/1BWD\/img\/img_41.png",
+		"outputAbbreviatedPath": "\/1BWD\/img\/img_41.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/BWD\/index.html": {
+	"\/1BWD\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/BWD\/index.html",
+		"inputAbbreviatedPath": "\/1BWD\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/BWD\/main.css": {
+	"\/1BWD\/main.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/BWD\/main.css",
+		"inputAbbreviatedPath": "\/1BWD\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/BWD\/main.js": {
+	"\/1BWD\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/BWD\/main.js",
-		"outputAbbreviatedPath": "\/BWD\/min\/main-min.js",
+		"inputAbbreviatedPath": "\/1BWD\/main.js",
+		"outputAbbreviatedPath": "\/1BWD\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/BWD\/min\/main-min.js": {
+	"\/1BWD\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/BWD\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/BWD\/min\/min\/main-min-min.js",
+		"inputAbbreviatedPath": "\/1BWD\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/1BWD\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/BWD\/text\/test1.html": {
+	"\/1BWD\/text\/test1.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/BWD\/text\/test1.html",
+		"inputAbbreviatedPath": "\/1BWD\/text\/test1.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/BWD\/text\/test2.html": {
+	"\/1BWD\/text\/test2.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/BWD\/text\/test2.html",
+		"inputAbbreviatedPath": "\/1BWD\/text\/test2.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/BWD\/text\/test3.html": {
+	"\/1BWD\/text\/test3.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/BWD\/text\/test3.html",
+		"inputAbbreviatedPath": "\/1BWD\/text\/test3.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/BWD\/text\/test4.html": {
+	"\/1BWD\/text\/test4.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/BWD\/text\/test4.html",
+		"inputAbbreviatedPath": "\/1BWD\/text\/test4.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/RWD\/about.html": {
+	"\/2RWD\/about.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/RWD\/about.html",
+		"inputAbbreviatedPath": "\/2RWD\/about.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/RWD\/css\/bootstrap.css": {
+	"\/2RWD\/css\/bootstrap.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/RWD\/css\/bootstrap.css",
+		"inputAbbreviatedPath": "\/2RWD\/css\/bootstrap.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/RWD\/css\/bootstrap_blue.css": {
+	"\/2RWD\/css\/bootstrap_blue.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/RWD\/css\/bootstrap_blue.css",
+		"inputAbbreviatedPath": "\/2RWD\/css\/bootstrap_blue.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/RWD\/css\/bootstrap_plain.css": {
+	"\/2RWD\/css\/bootstrap_plain.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/RWD\/css\/bootstrap_plain.css",
+		"inputAbbreviatedPath": "\/2RWD\/css\/bootstrap_plain.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/RWD\/css\/style.css": {
+	"\/2RWD\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/RWD\/css\/style.css",
+		"inputAbbreviatedPath": "\/2RWD\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/RWD\/images\/task1.jpg": {
+	"\/2RWD\/images\/task1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 50825,
-		"inputAbbreviatedPath": "\/RWD\/images\/task1.jpg",
-		"outputAbbreviatedPath": "\/RWD\/images\/task1.jpg",
+		"inputAbbreviatedPath": "\/2RWD\/images\/task1.jpg",
+		"outputAbbreviatedPath": "\/2RWD\/images\/task1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/RWD\/images\/task2.jpg": {
+	"\/2RWD\/images\/task2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 54607,
-		"inputAbbreviatedPath": "\/RWD\/images\/task2.jpg",
-		"outputAbbreviatedPath": "\/RWD\/images\/task2.jpg",
+		"inputAbbreviatedPath": "\/2RWD\/images\/task2.jpg",
+		"outputAbbreviatedPath": "\/2RWD\/images\/task2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/RWD\/images\/task3.jpg": {
+	"\/2RWD\/images\/task3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 96150,
-		"inputAbbreviatedPath": "\/RWD\/images\/task3.jpg",
-		"outputAbbreviatedPath": "\/RWD\/images\/task3.jpg",
+		"inputAbbreviatedPath": "\/2RWD\/images\/task3.jpg",
+		"outputAbbreviatedPath": "\/2RWD\/images\/task3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/RWD\/index.html": {
+	"\/2RWD\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/RWD\/index.html",
+		"inputAbbreviatedPath": "\/2RWD\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/RWD\/js\/bootstrap.js": {
+	"\/2RWD\/js\/bootstrap.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/RWD\/js\/bootstrap.js",
-		"outputAbbreviatedPath": "\/RWD\/js\/min\/bootstrap-min.js",
+		"inputAbbreviatedPath": "\/2RWD\/js\/bootstrap.js",
+		"outputAbbreviatedPath": "\/2RWD\/js\/min\/bootstrap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/RWD\/js\/bootstrap.min.js": {
+	"\/2RWD\/js\/bootstrap.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/RWD\/js\/bootstrap.min.js",
-		"outputAbbreviatedPath": "\/RWD\/js\/min\/bootstrap.min-min.js",
+		"inputAbbreviatedPath": "\/2RWD\/js\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/2RWD\/js\/min\/bootstrap.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/RWD\/js\/jquery.min.js": {
+	"\/2RWD\/js\/jquery.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/RWD\/js\/jquery.min.js",
-		"outputAbbreviatedPath": "\/RWD\/js\/min\/jquery.min-min.js",
+		"inputAbbreviatedPath": "\/2RWD\/js\/jquery.min.js",
+		"outputAbbreviatedPath": "\/2RWD\/js\/min\/jquery.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/RWD\/task.html": {
+	"\/2RWD\/task.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/RWD\/task.html",
+		"inputAbbreviatedPath": "\/2RWD\/task.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/3DDW\/AnimalsData.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/AnimalsData.js",
+		"outputAbbreviatedPath": "\/3DDW\/min\/AnimalsData-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/3DDW\/assignment.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/assignment.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/3DDW\/assignment.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/assignment.js",
+		"outputAbbreviatedPath": "\/3DDW\/min\/assignment-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/3DDW\/css\/bootstrap-theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/css\/bootstrap-theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/3DDW\/css\/bootstrap-theme.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/css\/bootstrap-theme.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/3DDW\/css\/bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/css\/bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/3DDW\/css\/bootstrap.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/css\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/3DDW\/css\/bootstrap_blue.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/css\/bootstrap_blue.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/3DDW\/css\/bootstrap_plain.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/css\/bootstrap_plain.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/3DDW\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/3DDW\/js\/bootstrap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/js\/bootstrap.js",
+		"outputAbbreviatedPath": "\/3DDW\/js\/min\/bootstrap-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/3DDW\/js\/bootstrap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/js\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/3DDW\/js\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/3DDW\/js\/handlebars-v3.0.3.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/js\/handlebars-v3.0.3.js",
+		"outputAbbreviatedPath": "\/3DDW\/js\/min\/handlebars-v3.0.3-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/3DDW\/js\/jquery-2.1.4.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/js\/jquery-2.1.4.min.js",
+		"outputAbbreviatedPath": "\/3DDW\/js\/min\/jquery-2.1.4.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/3DDW\/js\/jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/js\/jquery.js",
+		"outputAbbreviatedPath": "\/3DDW\/js\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/3DDW\/js\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/js\/jquery.min.js",
+		"outputAbbreviatedPath": "\/3DDW\/js\/min\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		}
 	},
 "hooks": [
