@@ -454,6 +454,28 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/3DDW\/min\/AnimalsData-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/min\/AnimalsData-min.js",
+		"outputAbbreviatedPath": "\/3DDW\/min\/min\/AnimalsData-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/3DDW\/min\/assignment-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/3DDW\/min\/assignment-min.js",
+		"outputAbbreviatedPath": "\/3DDW\/min\/min\/assignment-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		}
 	},
 "hooks": [
@@ -734,7 +756,7 @@
 			"flagValue": -1
 			},
 		"globalstrict": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"immed": {
@@ -918,7 +940,7 @@
 			"flagValue": -1
 			},
 		"undef": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"unused": {
