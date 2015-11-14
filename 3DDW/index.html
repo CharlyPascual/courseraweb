@@ -90,6 +90,24 @@
   </div> <!-- / row -->
 </script>
 
+<!-- this is the template for the view a single photo -->
+<!-- 
+    It is displayed as a large image with title and description
+-->
+<script id="photo-template" type="text/x-handlebars-template">
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+    {{#if image1}} 
+        <img class="large-img" src="{{image1}}" alt=""/> 
+    {{else}}    
+        <img class="large-img" src="{{image2}}" alt=""/> 
+    {{/if}}    
+        <div class="caption">
+            <h3>{{name}}</h3>
+        </div>
+      </div> <!-- / col -->
+  </div> <!-- / row -->
+</script>
 
 </body>
 </html>
