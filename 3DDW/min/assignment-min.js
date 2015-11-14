@@ -1,0 +1,1 @@
+function showTemplate(t,e){var a=t(e);$("#content").html(a)}var category_template,photos_template,photo_template,slideshow_template;$(document).ready(function(){var t=$("#category-template").html();category_template=Handlebars.compile(t),$("#category-tab").click(function(){console.log("category-tab"),showTemplate(category_template,animals_data)})});
