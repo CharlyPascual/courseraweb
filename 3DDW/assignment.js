@@ -70,7 +70,7 @@ $(document).ready(function(){
 			// displays the photos template
 			showTemplate(photos_template, current_album);
 
-			// add an on click al all the photo thumbnails
+			//  add an on click al all the photo thumbnails
 			// which displays the photo in a modal popup
 			$(".photo-thumbnail").click(function (){
 				// get the index (position in the array)
