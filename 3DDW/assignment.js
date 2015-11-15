@@ -133,7 +133,9 @@ $(document).ready(function(){
 		// display the slideshow template using the 
 		// current album
 		//current_album = animals_data.category;
-	
+		//
+		// I use the object animals_data to display all 
+		// the images
 		showTemplate(slideshow_template, animals_data);
 		
 		// make the slideshow tab the active one

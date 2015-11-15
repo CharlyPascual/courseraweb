@@ -1,6 +1,15 @@
 /* put your css code here */
+
+.pre_main{
+	 display: block;
+	 font-family: monospace, monospace;
+	 margin: 0 0 10px;
+     font-size: 1em;
+     line-height: 1.42857143;
+	 color: #333;
+}
 .theName{
-	font-size: 50px;
+	font-size: 50px; /*to make bigger the principals links in ths category-stab*/
 
 }
 .crop-img{
@@ -16,5 +25,4 @@
     padding: 10px;
     max-height:300px;
     max-width:100%;
-
 }
