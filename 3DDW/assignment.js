@@ -29,6 +29,9 @@ $(document).ready(function(){
 	source   = $("#photo-template").html();
 	photo_template = Handlebars.compile(source);
 
+	source   = $("#slideshow-template").html();
+	slideshow_template = Handlebars.compile(source);
+
 	$("#category-tab").click(function () {
 
 		console.log("category-tab");
@@ -120,6 +123,24 @@ $(document).ready(function(){
 			// displays the single photo template
 			showTemplate(photo_template, current_photo);
 		});
+	});
+
+		// 
+	//  clicking on the slideshow tab displays the
+	//  current album as a slide show
+	//
+	$("#slideshow-tab").click(function () {
+		// display the slideshow template using the 
+		// current album
+		//current_album = animals_data.category;
+	
+		showTemplate(slideshow_template, animals_data);
+		
+		// make the slideshow tab the active one
+		// first make the currently active tab inactive
+		$(".nav-tabs .active").removeClass("active");
+		// then make slideshow tab active
+		$("#slideshow-tab").addClass("active");
 	});
 
 	$("#category-tab").click();

@@ -4,6 +4,10 @@
 
 <head>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <title>ZOO</title>
+
 <!-- include our libraries and css files -->
 
 <script src="js/jquery-2.1.4.min.js"></script>
@@ -31,7 +35,7 @@
      <!-- A navigation menu that selects different views -->
       <ul class="nav nav-tabs">
             <li role="" class="active"><a href="#" id="category-tab" >Category</a></li>
-            <li role=""><a href="#" id="photos-tab" >Photos</a></li>
+            <li role=""><a href="#" id="photos-tab" >Animals</a></li>
             <li role=""><a href="#" id="slideshow-tab" >Slideshow</a></li>
           </ul>
       <br/><br/>
@@ -97,16 +101,64 @@
 <script id="photo-template" type="text/x-handlebars-template">
   <div class="row">
     <div class="col-xs-12 col-md-12">
-    {{#if image1}} 
+  
         <img class="large-img" src="{{image1}}" alt=""/> 
-    {{else}}    
+   
         <img class="large-img" src="{{image2}}" alt=""/> 
-    {{/if}}    
+  
         <div class="caption">
             <h3>{{name}}</h3>
         </div>
       </div> <!-- / col -->
   </div> <!-- / row -->
+</script
+
+
+<!-- this is the template for the slideshow view of a single album -->
+<!-- 
+    It uses the carousel view, which is quite complex, see my lecture for details
+-->
+<script id="slideshow-template" type="text/x-handlebars-template">
+  <div class="row">
+    <div class="col-md-6">
+
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+  
+       <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+        {{#each category}}
+          {{#each animals}}
+            <div class="item {{#if @first}}active{{/if}}">
+             <img class="carousel-img" src="{{image1}}" alt=""/> 
+            <div class="carousel-caption">
+           		<h4>Animals</h4>
+            </div>
+          </div> <!-- / carousel item -->
+          {{/each}}
+ 		{{/each}}
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    </div> <!-- / carousel --> 
+  </div> <!-- / col -->
+</div> <!-- / row -->
 </script>
 
 </body>
