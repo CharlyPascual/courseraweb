@@ -1,0 +1,1 @@
+Meteor.isClient&&(Template.hello.helpers({myTime:function(){return d}}),Template.hello.events({"click button":function(){d=Date()}})),Meteor.isServer&&Meteor.startup(function(){});
