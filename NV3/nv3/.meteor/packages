@@ -21,3 +21,4 @@ twbs:bootstrap
 barbatus:stars-rating
 accounts-password
 ian:accounts-ui-bootstrap-3
+iron:router

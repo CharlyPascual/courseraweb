@@ -3,8 +3,19 @@
 </head>
 
 <body>
+
+
+</body>
+
+<template name="ApplicationLayout">
+	{{> yield 'navbar'}}
+	{{> yield 'main'}}
+	
+
+</template>
 	<!-- navbar  - you will be putting the login functions here -->
-	<nav class="navbar navbar-default">
+<template name="welcome">
+	<nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <a class="navbar-brand" href="#">
@@ -16,15 +27,16 @@
 	    </div>
 	  </div>
 	</nav>
+	</template>
 
+<template name="website">
 	<div class="container">
 		{{#if currentUser}}
 		{{> website_form}}
 		{{/if}}
 		{{> website_list}}
 	</div>
-</body>
-
+</template>
 
 <template name="website_form">
 	<a class="btn btn-default js-toggle-website-form" href="#">
@@ -62,7 +74,8 @@
 <!-- template that displays individual website entries -->
 <template name="website_item">
 <li>
-	<a href="{{url}}">{{title}}</a>
+	<a href="{{url}}">{{title}}</a><a href="/details/{{_id}}" class="btn btn-info pull-right">detail</a>
+	<hr>
 	<p>
 		{{description}}
 	</p>
@@ -74,5 +87,12 @@
 	</a>
 	<!-- you will be putting your up and down vote buttons in here! -->
 	<span>Rating: {{up}} UPs: {{countUp}} DOWNs: {{countDown}}</span>
+	<hr>
 </li>
+</template>
+
+<template name="details">
+<div class="container">
+	<h2>{{title}}</h2>hola
+</div>
 </template>

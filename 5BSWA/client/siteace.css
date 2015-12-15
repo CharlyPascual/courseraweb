@@ -2,3 +2,6 @@
 .hidden_div{
 	display:none;
 }
+body{ /*para que se vea el titulo ya que si no el fixed del ÇLOGIN no lo dejaria ver*/
+	padding-top: 80px;
+}

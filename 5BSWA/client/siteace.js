@@ -1,4 +1,46 @@
 
+	//
+	//routing
+	//
+	Router.configure({
+		layoutTemplate: 'ApplicationLayout'
+	});
+
+	Router.route('/', function () {
+	  this.render('welcome', {
+	  	to:'navbar'
+	  });
+	  this.render('website', {
+	  	to:'main'
+	  });
+	 });
+
+	Router.route('/details/:_id', function () {
+	  this.render('welcome', {
+	  	to:'navbar'
+	  });
+	  this.render('details', {
+	  	to:'main',
+	  	data:function  () {
+	  		return Websites.findOne({_id:this.params._id})
+	  	}
+
+	  });
+	 });
+
+
+	/////
+	//Acount system
+	/////
+	Accounts.ui.config({ //configuracion del paquete accounts-ui
+    requestPermissions: {
+      // facebook: ['user_likes']
+    },
+    requestOfflineToken: {
+      // google: true
+    },
+    passwordSignupFields: 'USERNAME_AND_EMAIL' //  One of 'USERNAME_AND_EMAIL', 'USERNAME_AND_OPTIONAL_EMAIL', 'USERNAME_ONLY', or 'EMAIL_ONLY' (default).
+  });
 
 	/////
 	// template helpers 
@@ -11,16 +53,6 @@
 		}
 	});
 
-	//Acount system
-	Accounts.ui.config({ //configuracion del paquete accounts-ui
-    requestPermissions: {
-      // facebook: ['user_likes']
-    },
-    requestOfflineToken: {
-      // google: true
-    },
-    passwordSignupFields: 'USERNAME_AND_EMAIL' //  One of 'USERNAME_AND_EMAIL', 'USERNAME_AND_OPTIONAL_EMAIL', 'USERNAME_ONLY', or 'EMAIL_ONLY' (default).
-  });
 
 
 	/////
