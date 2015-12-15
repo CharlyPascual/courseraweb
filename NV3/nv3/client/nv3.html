@@ -1,0 +1,81 @@
+<head>
+  <title>nv3</title>
+</head>
+
+<body>
+{{> image_add_form}} <!-- caja modal -->
+ 
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+  {{> loginButtons}}  <!-- formulario login -->
+ 	</div>
+</nav>
+  <div class="container">
+    <h1>Guarderia Nuevavida</h1><h2>Hola {{username}}</h2>
+
+  {{> images}} <!-- Llamo a la plantilla "images" -->
+  </div>
+</body>
+<!-- Inicio plantilla "image_add_form" -->
+<template name="image_add_form">
+	<div class="modal fade" id="image_add_form_id"> <!-- el modal esta oculto, necesita un disparador, en este caso sera el boton "add image" -->
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal-title">
+					</div>
+				</div>
+				<div class="modal-body">
+					<form class="js-add-image">
+						<input type="text" name="img_src"><br>
+						<input type="text" name="img_alt">
+						<button class="btn btn-success">save</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-warning" data-dismiss="modal">cancel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
+
+<!-- Inicio plantilla "images" --> <!-- Template.images.helpers -->
+<template name="images">
+{{#if currentUser}} <!-- Meteor asocia "currentUser" a todas las plantillas -->
+	<button class="btn btn-success js-show-image-form">add image</button>
+{{/if}}	
+<p> <!-- boton para quitar el filtro -->
+	{{#if filtering_images}}
+	Mostradan imagenes añadidas por el usuario <strong>{{getFilterUser}}</strong>
+	<a href="#" class="js-unset-user-filter">Mostar todas las images</a>
+	{{/if}}
+</p>
+	<div class="row">
+  {{#each images}} <!-- recorro el array --> 
+	  <div class="col-xs-12 col-md-3 js-bg" id="{{_id}}"> <!-- importante luego utilizo este _id para poder borrar las imagenes con el boton "delete"-->
+	  	<div class="thumbnail">
+			
+	  	 	<img class="js-image thumbnail-img" src="{{img_src}}" alt="{{img_alt}}"/> 
+	  			
+			<div class="caption">
+	        	<h3>Rating {{rating}}</h3>
+	        	<p>{{img_alt}}</p>
+	        	<p>
+	        	 <!-- aqui "getUser" es una funcion y "createdBy" es un argumento que se le pasa -->
+	        		User : 
+<!-- para filtrar por nombre hacemos el "getUser" clicable -->
+	        		<a href="#" class="js-set-user-filter">{{getUser createdBy}}</a>
+	        	</p>
+	        	<p> <!-- la clase 'mystar' es para interactuar con CSS -->
+	        		<!-- la clase js-rate-image es para intercuar con JS -->
+	        		<!-- el selector id hace referencia al _id de la imagen que mongo la ha asignado, porque estamos trabajando dentro de la plantilla "image" y por tanto tenemos acceso a ese _id-->
+	        		{{> starsRating id='rating' class='mystar js-rate-image' mutable=true id=_id }}
+	        	</p>
+	        	<button class="js-del-image btn btn-warning">delete</button>
+	   		</div>
+	     </div>
+	   </div> <!-- / col -->
+  {{/each}}
+	</div> <!-- / row -->
+</template> <!-- fin plantilla "images" -->

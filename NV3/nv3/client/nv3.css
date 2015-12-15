@@ -1,0 +1,21 @@
+/* CSS declarations go here */
+.thumbnail {
+    height: 450px;
+    padding: 5px;
+}
+.thumbnail-img{ /*algo pasa con las estrellas*/
+	max-height: 250px;
+}
+body{ /*para que se vea el titulo ya que si no el fixed del ÇLOGIN no lo dejaria ver*/
+	padding-top: 60px;
+}
+
+/*Changes default color.*/
+.mystar .current-rating {
+  color: #f00;
+}
+
+/*A color that highlights selected stars when user interacts with the control.*/
+.mystar .active {
+  color: blue;
+}
